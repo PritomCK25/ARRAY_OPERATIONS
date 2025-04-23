@@ -61,7 +61,7 @@ void deleteElement(int arr[], int *size) {
             i--;
         }
     }
-    if (!found) {
+    if (found==0) {
         printf("Element not found!\n");
     }
 }
